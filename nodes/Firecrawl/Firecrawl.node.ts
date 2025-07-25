@@ -26,7 +26,7 @@ export class Firecrawl implements INodeType {
 			},
 		],
 		requestDefaults: {
-			baseURL: 'https://api.firecrawl.dev/v1',
+			baseURL: 'http://192.168.24.13:3002/v1',
 			headers: {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
